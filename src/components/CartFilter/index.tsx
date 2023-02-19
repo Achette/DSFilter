@@ -1,3 +1,4 @@
+import { ButtonFilter } from "../FilterButton";
 import "./styles.css";
 
 export const CartFilter = () => {
@@ -6,7 +7,7 @@ export const CartFilter = () => {
       <div className="card-filter-content">
           <input type="text" placeholder="Preço mínimo" />
           <input type="text" placeholder="Preço máximo" />
-          <button>Filtrar</button>
+          <ButtonFilter title="Filtrar" />
       </div>
     </div>
   );
