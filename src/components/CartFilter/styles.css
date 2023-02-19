@@ -29,17 +29,4 @@
   padding: 0 0.625rem;
 }
 
-.card-filter-content button {
-  background-color: #55bc04;
-  height: 2.5rem;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
-  outline: none;
-  border: none;
-  border-radius: 0.3125rem;
-}
 
-.card-filter-content button:hover {
-  background-color: #53b10b;
-}
