@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .App {
   height: 100vh;
   background-color: #ccc;
