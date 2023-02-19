@@ -3,3 +3,7 @@ export type ProductDTO = {
   name: string;
   price: number;
 };
+
+export type ButtonProps = {
+  title: string
+}
