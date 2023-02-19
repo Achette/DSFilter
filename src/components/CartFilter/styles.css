@@ -1,0 +1,45 @@
+.cart-filter-container {
+  max-width: 60rem;
+  width: 100%;
+  height: 12.5rem;
+  background-color: #fff;
+  border-radius: 0.3125rem;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+}
+
+.card-filter-content {
+  width: 12.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-filter-content input {
+  height: 2.5rem;
+  border: 1px solid #c2c2c2;
+  border-radius: 0.3125rem;
+}
+
+.card-filter-content input::placeholder {
+  color: #c2c2c2;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0 0.625rem;
+}
+
+.card-filter-content button {
+  background-color: #55bc04;
+  height: 2.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 0.3125rem;
+}
+
+.card-filter-content button:hover {
+  background-color: #53b10b;
+}
