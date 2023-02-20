@@ -3,7 +3,6 @@ import { ProductDTO, QueryParams } from "../../types";
 import { CardFilter } from "../CardFilter";
 import { CartListing } from "../CartListing";
 import * as productService from "../../services/product-service";
-import "./styles.css";
 import { ContextNumberCount } from "../../context/context-product-count";
 
 export const ListingBody = () => {
@@ -39,11 +38,11 @@ export const ListingBody = () => {
     setQueryParams({ ...queryParams, minPrice, maxPrice });
   };
   return (
-    <div className="listing-body-container">
+    <main className="container-body-960">
       <CardFilter onFilter={handleOnFilter} />
       {products.map((product) => (
         <CartListing key={product.id} product={product} />
       ))}
-    </div>
+    </main>
   );
 };

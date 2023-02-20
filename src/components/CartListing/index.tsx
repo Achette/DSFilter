@@ -4,8 +4,8 @@ import "./styles.css";
 
 export const CartListing = ({ product }: CardListProps) => {
   return (
-    <section className="">
-      <div className="cart-listing-container">
+    <section>
+      <div className="cart-listing-container container-body">
         <div className="product-info">
           <h3>{product.name}</h3>
           <p>R$ {product.price.toFixed(2)}</p>

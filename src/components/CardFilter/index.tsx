@@ -26,8 +26,7 @@ export const CardFilter = ({ onFilter }: FilterProps) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="cart-filter-container">
-        <div className="card-filter-content">
+      <div className="cart-filter-container container-body">
           <input
             name="minPrice"
             type="text"
@@ -43,7 +42,6 @@ export const CardFilter = ({ onFilter }: FilterProps) => {
             onChange={handleInputChange}
           />
           <ButtonFilter title="Filtrar" />
-        </div>
       </div>
     </form>
   );

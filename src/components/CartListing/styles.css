@@ -4,21 +4,21 @@
   border-radius: 5px;
 }
 
+.cart-listing-container h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--font-subtitles);
+}
+
+.cart-listing-container p {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--font-prices);
+}
+
 .product-info {
   padding: 10px;
+  border: 1px solid var(--border-products);
   border-radius: 5px;
   margin-bottom: 10px;
-  border: 1px solid #55bc04;
-}
-
-.product-info h3 {
-  font-size: 0.75rem;
-  list-style: none;
-  color: #6f6f6f;
-}
-
-.product-info p {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #55bc04;
 }
