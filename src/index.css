@@ -1,0 +1,56 @@
+:root {
+  --bg-page: #c2c2c2;
+  --bg-header: #55bc04;
+  --bg-cards: #ffffff;
+  --bg-button-filter: #55bc04;
+  --font-prices: #55bc04;
+  --font-subtitles: #6f6f6f;
+  --font-input: #6f6f6f;
+  --font-primary: #ffffff;
+  --font-min-max: #c2c2c2;
+  --border-products: #55bc04;
+  --border-min-max: #c2c2c2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-page);
+}
+
+.container-header {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container-body {
+  width: 100%;
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+@media (max-width: 960px) {
+  .container-body-960 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
