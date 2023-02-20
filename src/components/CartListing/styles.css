@@ -1,8 +1,24 @@
 .cart-listing-container {
-  max-width: 60rem;
-  width: 100%;
-  height: 25.5rem;
-  background-color: #fff;
-  border-radius: 0.3125rem;
-  margin-top: 1.25rem;
+  background-color: var(--bg-cards);
+  padding: 20px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.product-info {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #55bc04;
+}
+
+.product-info h3 {
+  font-size: 0.75rem;
+  list-style: none;
+  color: #6f6f6f;
+}
+
+.product-info p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #55bc04;
 }

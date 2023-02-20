@@ -23,5 +23,5 @@ export type QueryParams = {
 };
 
 export type CardListProps = {
-  product: ProductDTO
-}
+  product: ProductDTO;
+};
